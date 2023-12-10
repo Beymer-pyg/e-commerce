@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 45%;
   height: 100vh;
+  overflow: auto; //nice para utilizar vh 100 y el contenido esta en pantalla pequeña
 
   @include mid-break {
     grid-template-columns: 1fr;
